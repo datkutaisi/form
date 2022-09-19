@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>დავითის გვერდი</h1>
+    <div class="main">
+    <ul>
+        <li><a href="index.html">მთავარი გვერდი</a></li>
+        <li><a href="info.html">ინფორმაცია</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+        
+    </ul>
+
+    <form class="reg">
+        <input type="text" name="saxeli" placeholder="ლოგინი">
+        <input type="password" name="pass" placeholder="პაროლი">
+        <input type="submit" value="შესვლა">
+    </form>
+    </div>
+
+    <p><strong>შეიყვანეთ ინფორმაცია:</strong></p>
+
+    <form>
+       <p>სახელი: </p> <input type="text" name="text">
+       <p>გვარი: </p> <input type="text" name="text">
+       <p>ასაკი: </p> <input type="number" name="age" min="18" max="99">
+       <p>ტელეფონის ნომერი: </p> <input type="tel" name="num" required placeholder="599-00-00-00">
+       <p>ემაილი: </p> <input type="email" name="mail" required value="@">
+       <p>ქალაქი: </p> 
+       <input type="text" name="search" placeholder="აირჩიეთ ქალაქი" list="search"> 
+       <datalist id="search">
+       <option value="თბილისი">  </option>
+       <option value="ქუთაისი">  </option>
+       <option value="ბათუმი">  </option>
+       <option value="გორი">  </option>
+   </datalist>
+        <br/>
+        <br/>
+       <input type="submit" value="გაგზავნა">
+       <input type="reset" value="წაშლა">
+    </form>
+
+</body>
+</html>

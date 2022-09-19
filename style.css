@@ -1,0 +1,32 @@
+body{
+    background-color: azure;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.reg{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.tyupi{
+    margin-left: 25px;
+}
